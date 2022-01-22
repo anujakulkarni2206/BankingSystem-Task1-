@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Contact Us</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: url(IMG/contact.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        h2 {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 38px;
+            font-weight: 500;
+            color: #00FFFF;
+        }
+        
+        .container {
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .container .contactinfo {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container .contactinfo .box {
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+        }
+        
+        .container .contactinfo .box .icon {
+            min-width: 60px;
+            height: 60px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 22px;
+        }
+        
+        .container .contactinfo .box h3 {
+            font-weight: 500;
+            color: #00FFFF;
+        }
+        
+        h3 {
+            font-size: 22px;
+            margin-top: 40px;
+            margin-left: 15px;
+            color: #00FFFF;
+        }
+        
+        p {
+            font-size: 18px;
+            margin-left: 15px;
+            color: whitesmoke;
+        }
+        
+        footer {
+            margin: auto;
+            text-align: center;
+            padding: 100px;
+        }
+        
+        footer p {
+            font-weight: bold;
+            color: whitesmoke
+        }
+        
+        @media (max-width:991px) {
+            .contact {
+                padding: 50px;
+            }
+            .container {
+                flex-direction: column;
+            }
+            .container .contactinfo {
+                margin-bottom: 40px;
+            }
+            .container .contactinfo {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Contact Us</h2>
+
+    <div class="container">
+        <div class="contactinfo">
+            <div class="box">
+                <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="text">
+                    <h3>Address</h3><br>
+                    <p>21 HENG MUI KENG TERRACE, SINGAPORE, 119613</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                <div class="text">
+                    <h3>Contact</h3><br>
+                    <p>+65-8402-8590, info@thesparksfoundation.sg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3>Whatever you need, we’ve got you covered</h3><br>
+    <p>
+        At Sparks, we expect more from ourselves,than what <br> anyone else expects of us. This way,we are creating a <br>rewarding and delightful experience every day for our customers.</p>
+
+    <footer class="footer">
+        <p><i>&#169; copyright 2022.</i></p>
+        <p><i>All rights reserved. Powered by <a href="https://www.thesparksfoundationsingapore.org/">The Sparks Foundation</a></i></p>
+    </footer>
+</body>
+
+</html>

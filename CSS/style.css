@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400&family=Roboto:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    background-color: rgb(254, 254, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 1;
+}
+
+#logo {
+    margin: 0px 5px;
+}
+
+#logo img {
+    height: 70px;
+    position: absolute;
+    left: 18px;
+    top: 10px;
+}
+
+.main-tagline {
+    margin-left: 80px;
+    font-size: 31px;
+}
+
+.main-tagline .sub-tagline {
+    margin-left: 153px;
+    font-size: 20px;
+    font-family: 'Gilda Display', serif;
+    font-weight: bold;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul .menu {
+    width: 500px;
+}
+
+#navbar ul li a {
+    height: 53px;
+    line-height: 54px;
+    margin: 13px;
+    padding: 0px 10px;
+    display: flex;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    transition-timing-function: 0.7s ease-in-out;
+    color: rgba(5, 5, 5, 0.925);
+}
+
+#navbar ul li a:hover {
+    background-color: #a10b95;
+    color: whitesmoke;
+    font-weight: 500;
+    box-shadow: 5px 8px 9px rgb(243, 242, 242);
+}
+
+.active {
+    background-color: #fffcfc;
+    color: whitesmoke;
+    box-shadow: 5px 8px 9px rgb(243, 242, 242);
+}
+
+.slideshow-container {
+    margin: auto;
+    top: 126px;
+    position: absolute;
+    width: 1340px;
+    height: 525px;
+    overflow: hidden;
+}
+
+.Containers {
+    display: none;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 4s;
+    animation-name: fade;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .5
+    }
+    to {
+        opacity: 2
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .5
+    }
+    to {
+        opacity: 2
+    }
+}
